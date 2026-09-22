@@ -1,0 +1,6 @@
+# Language statistics
+#
+# The reconstruction engine is Python. Charts, PDFs and output tables are built
+# deliverables written by src/, not hand-authored source.
+reports/*.pdf       linguist-generated
+outputs/**          linguist-generated
