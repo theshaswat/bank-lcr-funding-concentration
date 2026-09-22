@@ -341,6 +341,8 @@ def render(md_path, pdf_path, title):
         topMargin=0.55 * inch, bottomMargin=0.62 * inch,
         leftMargin=0.7 * inch, rightMargin=0.7 * inch,
         title=title,
+        author="Shaswat Sharma",
+        subject="Independent analysis",
     )
     avail_width = LETTER[0] - doc.leftMargin - doc.rightMargin
     story = build_story(text, avail_width)
