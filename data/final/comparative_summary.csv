@@ -1,0 +1,3 @@
+bank,lcr_latest_pct,lcr_min_pct,lcr_max_pct,lcr_trend_5q_pct_points,quarters_reconciled_clean,quarters_total,wholesale_pct_latest,wholesale_pct_trend_5q,less_stable_retail_pct_latest,less_stable_retail_pct_trend_5q
+HDFC Bank,115.0,113.54,123.78,-8.78,4,5,33.12,1.93,77.57,1.43
+IndusInd Bank,126.66,117.99,141.28,-14.62,5,5,40.87,-1.4,95.3,-0.04

@@ -1,0 +1,231 @@
+quarter,row_id,label,unweighted,weighted,bank,source_file,unit,unweighted_inr_crore,weighted_inr_crore
+2026-06-30,1,Total High Quality Liquid Assets,,8383912.73,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,838391.273
+2026-03-31,1,Total High Quality Liquid Assets,,7753881.71,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,775388.1710000001
+2026-06-30,2,Retail deposits,17848488.79,1983230.69,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,1784848.879,198323.06900000002
+2026-03-31,2,Retail deposits,17364972.51,1510590.18,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,1736497.2510000002,151059.018
+2026-06-30,2i,Stable deposits,4003221.01,292272.64,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,400322.101,29227.264000000003
+2026-03-31,2i,Stable deposits,4518141.41,225907.07,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,451814.14100000006,22590.707000000002
+2026-06-30,2ii,Less stable deposits,13845267.78,1690958.05,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,1384526.778,169095.80500000002
+2026-03-31,2ii,Less stable deposits,12846831.1,1284683.11,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,1284683.11,128468.31100000002
+2026-06-30,3,Unsecured wholesale funding,8837489.34,4987440.89,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,883748.934,498744.089
+2026-03-31,3,Unsecured wholesale funding,8044855.79,5081706.99,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,804485.579,508170.699
+2026-06-30,3i,Operational deposits,0.0,0.0,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,0.0,0.0
+2026-03-31,3i,Operational deposits,0.0,0.0,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,0.0,0.0
+2026-06-30,3ii,Non-operational deposits,8634540.62,4784492.17,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,863454.0619999999,478449.217
+2026-03-31,3ii,Non-operational deposits,7864795.76,4901646.96,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,786479.576,490164.696
+2026-06-30,3iii,Unsecured debt,202948.72,202948.72,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,20294.872000000003,20294.872000000003
+2026-03-31,3iii,Unsecured debt,180060.03,180060.03,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,18006.003,18006.003
+2026-06-30,4,Secured wholesale funding,,97854.53,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,9785.453
+2026-03-31,4,Secured wholesale funding,,86794.58,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,8679.458
+2026-06-30,5,Additional requirements,3028205.84,1944705.63,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,302820.584,194470.563
+2026-03-31,5,Additional requirements,2928142.77,1832613.23,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,292814.277,183261.323
+2026-06-30,5i,collateral,1773933.92,1773933.92,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,177393.392,177393.392
+2026-03-31,5i,collateral,1685809.02,1685809.02,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,168580.902,168580.902
+2026-06-30,5ii,loss of funding,0.0,0.0,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,0.0,0.0
+2026-03-31,5ii,loss of funding,0.0,0.0,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,0.0,0.0
+2026-06-30,5iii,Credit and liquidity facilities,1254271.92,170771.71,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,125427.192,17077.171
+2026-03-31,5iii,Credit and liquidity facilities,1242333.75,146804.21,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,124233.375,14680.421
+2026-06-30,6,Other contractual funding,509823.64,509823.64,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,50982.364,50982.364
+2026-03-31,6,Other contractual funding,497181.85,497181.85,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,49718.185,49718.185
+2026-06-30,7,Other contingent funding,13868059.42,629001.81,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,1386805.942,62900.18100000001
+2026-03-31,7,Other contingent funding,12788392.0,578916.94,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,1278839.2000000002,57891.693999999996
+2026-06-30,8,Total Cash Outflows,,10152057.19,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,1015205.719
+2026-03-31,8,Total Cash Outflows,,9587803.77,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,958780.377
+2026-06-30,9,Secured lending,151138.91,0.0,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,15113.891000000001,0.0
+2026-03-31,9,Secured lending,0.0,0.0,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,0.0,0.0
+2026-06-30,10,Inflows from fully performing,1545780.44,875494.19,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,154578.044,87549.419
+2026-03-31,10,Inflows from fully performing,1510856.66,835382.29,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,151085.666,83538.229
+2026-06-30,11,Other cash inflows,2069183.69,1986130.63,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,206918.369,198613.063
+2026-03-31,11,Other cash inflows,2012490.02,1923404.62,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,201249.002,192340.46200000003
+2026-06-30,12,Total Cash Inflows,3766103.04,2861624.82,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,376610.304,286162.482
+2026-03-31,12,Total Cash Inflows,3523346.68,2758786.91,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,352334.66800000006,275878.69100000005
+2026-06-30,13,TOTAL HQLA,,8383912.73,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,838391.273
+2026-03-31,13,TOTAL HQLA,,7753881.71,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,775388.1710000001
+2026-06-30,14,Total Net Cash Outflows,,7290432.37,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,729043.2370000001
+2026-03-31,14,Total Net Cash Outflows,,6829016.86,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,682901.6860000001
+2026-06-30,15,Liquidity Coverage Ratio,,115.0,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,11.5
+2026-03-31,15,Liquidity Coverage Ratio,,113.54,HDFC Bank,hdfc_bank_q1fy26_jun2026.pdf,million,,11.354000000000001
+2025-12-31,1,Total High Quality Liquid Assets,,7486020.97,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,748602.0970000001
+2025-09-30,1,Total High Quality Liquid Assets,,7642633.65,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,764263.3650000001
+2025-06-30,1,Total High Quality Liquid Assets,,7993405.46,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,799340.5460000001
+2025-12-31,2,Retail deposits,17004288.96,1478141.17,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,1700428.8960000002,147814.117
+2025-09-30,2,Retail deposits,16571420.06,1453065.47,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,1657142.006,145306.547
+2025-06-30,2,Retail deposits,16005984.91,1409616.48,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,1600598.4910000002,140961.64800000002
+2025-12-31,2i,Stable deposits,4445754.45,222287.72,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,444575.44500000007,22228.772
+2025-09-30,2i,Stable deposits,4081530.79,204076.54,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,408153.079,20407.654000000002
+2025-06-30,2i,Stable deposits,3819640.08,190982.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,381964.00800000003,19098.2
+2025-12-31,2ii,Less stable deposits,12558534.51,1255853.45,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,1255853.4510000001,125585.345
+2025-09-30,2ii,Less stable deposits,12489889.27,1248988.93,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,1248988.927,124898.893
+2025-06-30,2ii,Less stable deposits,12186344.83,1218634.48,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,1218634.483,121863.448
+2025-12-31,3,Unsecured wholesale funding,7465533.14,4700597.64,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,746553.314,470059.76399999997
+2025-09-30,3,Unsecured wholesale funding,7292362.12,4573698.16,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,729236.212,457369.81600000005
+2025-06-30,3,Unsecured wholesale funding,7253897.85,4580966.7,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,725389.785,458096.67000000004
+2025-12-31,3i,Operational deposits,0.0,0.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,0.0,0.0
+2025-09-30,3i,Operational deposits,0.0,0.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,0.0,0.0
+2025-06-30,3i,Operational deposits,0.0,0.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,0.0,0.0
+2025-12-31,3ii,Non-operational deposits,7291615.73,4526680.23,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,729161.5730000001,452668.02300000004
+2025-09-30,3ii,Non-operational deposits,7132181.0,4413517.04,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,713218.1000000001,441351.704
+2025-06-30,3ii,Non-operational deposits,7080063.39,4407132.24,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,708006.339,440713.22400000005
+2025-12-31,3iii,Unsecured debt,173917.41,173917.41,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,17391.741,17391.741
+2025-09-30,3iii,Unsecured debt,160181.12,160181.12,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,16018.112000000001,16018.112000000001
+2025-06-30,3iii,Unsecured debt,173834.46,173834.46,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,17383.446,17383.446
+2025-12-31,4,Secured wholesale funding,,48772.06,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,4877.206
+2025-09-30,4,Secured wholesale funding,,68844.01,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,6884.401
+2025-06-30,4,Secured wholesale funding,,110461.09,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,11046.109
+2025-12-31,5,Additional requirements,2949256.22,1778703.82,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,294925.62200000003,177870.382
+2025-09-30,5,Additional requirements,2716522.29,1667085.25,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,271652.229,166708.52500000002
+2025-06-30,5,Additional requirements,2641726.07,1617040.59,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,264172.607,161704.059
+2025-12-31,5i,collateral,1645849.49,1645849.49,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,164584.94900000002,164584.94900000002
+2025-09-30,5i,collateral,1537687.78,1537687.78,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,153768.77800000002,153768.77800000002
+2025-06-30,5i,collateral,1502636.57,1502636.57,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,150263.657,150263.657
+2025-12-31,5ii,loss of funding,0.0,0.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,0.0,0.0
+2025-09-30,5ii,loss of funding,0.0,0.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,0.0,0.0
+2025-06-30,5ii,loss of funding,0.0,0.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,0.0,0.0
+2025-12-31,5iii,Credit and liquidity facilities,1303406.73,132854.33,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,130340.67300000001,13285.432999999999
+2025-09-30,5iii,Credit and liquidity facilities,1178834.51,129397.47,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,117883.451,12939.747000000001
+2025-06-30,5iii,Credit and liquidity facilities,1139089.5,114404.02,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,113908.95000000001,11440.402000000002
+2025-12-31,6,Other contractual funding,513417.1,513417.1,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,51341.71,51341.71
+2025-09-30,6,Other contractual funding,511243.24,511243.24,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,51124.324,51124.324
+2025-06-30,6,Other contractual funding,555164.21,555164.21,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,55516.421,55516.421
+2025-12-31,7,Other contingent funding,12962731.02,589101.28,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,1296273.102,58910.128000000004
+2025-09-30,7,Other contingent funding,12925456.94,588976.35,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,1292545.6940000001,58897.635
+2025-06-30,7,Other contingent funding,12494257.84,570730.31,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,1249425.784,57073.03100000001
+2025-12-31,8,Total Cash Outflows,,9108733.07,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,910873.307
+2025-09-30,8,Total Cash Outflows,,8862912.48,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,886291.2480000001
+2025-06-30,8,Total Cash Outflows,,8843979.38,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,884397.9380000001
+2025-12-31,9,Secured lending,0.0,0.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,0.0,0.0
+2025-09-30,9,Secured lending,0.0,0.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,0.0,0.0
+2025-06-30,9,Secured lending,0.0,0.0,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,0.0,0.0
+2025-12-31,10,Inflows from fully performing,1363671.88,757381.46,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,136367.188,75738.146
+2025-09-30,10,Inflows from fully performing,1203358.5,690625.3,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,120335.85,69062.53000000001
+2025-06-30,10,Inflows from fully performing,1253980.26,704388.6,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,125398.02600000001,70438.86
+2025-12-31,11,Other cash inflows,1996809.56,1901454.77,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,199680.956,190145.477
+2025-09-30,11,Other cash inflows,1439843.4,1368762.1,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,143984.34,136876.21000000002
+2025-06-30,11,Other cash inflows,1755060.26,1681771.37,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,175506.026,168177.13700000002
+2025-12-31,12,Total Cash Inflows,3360481.44,2658836.23,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,336048.14400000003,265883.623
+2025-09-30,12,Total Cash Inflows,2643201.9,2059387.4,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,264320.19,205938.74
+2025-06-30,12,Total Cash Inflows,3009040.52,2386159.97,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,300904.052,238615.99700000003
+2025-12-31,13,TOTAL HQLA,,7486020.97,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,748602.0970000001
+2025-09-30,13,TOTAL HQLA,,7642633.65,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,764263.3650000001
+2025-06-30,13,TOTAL HQLA,,7993405.46,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,799340.5460000001
+2025-12-31,14,Total Net Cash Outflows,,6449896.84,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,644989.684
+2025-09-30,14,Total Net Cash Outflows,,6383976.12,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,638397.6120000001
+2025-06-30,14,Total Net Cash Outflows,,6457819.41,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,645781.9410000001
+2025-12-31,15,Liquidity Coverage Ratio,,116.06,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,11.606000000000002
+2025-09-30,15,Liquidity Coverage Ratio,,119.72,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,11.972000000000001
+2025-06-30,15,Liquidity Coverage Ratio,,123.78,HDFC Bank,hdfc_bank_q4fy26_mar2026.pdf,million,,12.378
+2026-06-30,1,Total High Quality Liquid Assets,,105273.95,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,,105273.95
+2026-06-30,2,Retail deposits,190165.36,22308.77,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,190165.36,22308.77
+2026-06-30,2i,Stable deposits,8936.59,647.79,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,8936.59,647.79
+2026-06-30,2ii,Less stable deposits,181228.78,21660.98,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,181228.78,21660.98
+2026-06-30,3,Unsecured wholesale funding,131444.03,71469.57,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,131444.03,71469.57
+2026-06-30,3i,Operational deposits,0.0,0.0,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,0.0,0.0
+2026-06-30,3ii,Non-operational deposits,131444.03,71469.57,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,131444.03,71469.57
+2026-06-30,3iii,Unsecured debt,0.0,0.0,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,0.0,0.0
+2026-06-30,4,Secured wholesale funding,,0.0,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,,0.0
+2026-06-30,5,Additional requirements,20762.08,20762.08,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,20762.08,20762.08
+2026-06-30,5i,collateral,20762.08,20762.08,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,20762.08,20762.08
+2026-06-30,5ii,loss of funding,0.0,0.0,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,0.0,0.0
+2026-06-30,5iii,Credit and liquidity facilities,0.0,0.0,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,0.0,0.0
+2026-06-30,6,Other contractual funding,10187.78,10187.78,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,10187.78,10187.78
+2026-06-30,7,Other contingent funding,248312.29,12671.51,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,248312.29,12671.51
+2026-06-30,8,Total Cash Outflows,,137399.71,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,,137399.71
+2026-06-30,9,Secured lending,9293.98,0.0,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,9293.98,0.0
+2026-06-30,10,Inflows from fully performing,65256.5,54284.03,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,65256.5,54284.03
+2026-06-30,11,Other cash inflows,0.0,0.0,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,0.0,0.0
+2026-06-30,12,Total Cash Inflows,,54284.03,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,,54284.03
+2026-06-30,13,TOTAL HQLA,,105273.95,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,,105273.95
+2026-06-30,14,Total Net Cash Outflows,,83115.68,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,,83115.68
+2026-06-30,15,Liquidity Coverage Ratio,,126.66,IndusInd Bank,indusind_bank_q1fy27_jun2026.pdf,crore,,126.66
+2026-03-31,1,Total High Quality Liquid Assets,,114559.25,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,114559.25
+2025-12-31,1,Total High Quality Liquid Assets,,112954.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,112954.0
+2025-09-30,1,Total High Quality Liquid Assets,,127910.2,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,127910.2
+2025-06-30,1,Total High Quality Liquid Assets,,135463.71,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,135463.71
+2026-03-31,2,Retail deposits,182898.23,17851.3,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,182898.23,17851.3
+2025-12-31,2,Retail deposits,180112.67,17575.26,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,180112.67,17575.26
+2025-09-30,2,Retail deposits,180475.08,17616.68,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,180475.08,17616.68
+2025-06-30,2,Retail deposits,180678.05,17646.56,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,180678.05,17646.56
+2026-03-31,2i,Stable deposits,8770.45,438.52,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,8770.45,438.52
+2025-12-31,2i,Stable deposits,8720.04,436.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,8720.04,436.0
+2025-09-30,2i,Stable deposits,8616.52,430.83,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,8616.52,430.83
+2025-06-30,2i,Stable deposits,8424.81,421.24,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,8424.81,421.24
+2026-03-31,2ii,Less stable deposits,174127.78,17412.78,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,174127.78,17412.78
+2025-12-31,2ii,Less stable deposits,171392.63,17139.26,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,171392.63,17139.26
+2025-09-30,2ii,Less stable deposits,171858.56,17185.86,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,171858.56,17185.86
+2025-06-30,2ii,Less stable deposits,172253.24,17225.32,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,172253.24,17225.32
+2026-03-31,3,Unsecured wholesale funding,136344.02,81319.74,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,136344.02,81319.74
+2025-12-31,3,Unsecured wholesale funding,133377.24,76396.9,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,133377.24,76396.9
+2025-09-30,3,Unsecured wholesale funding,133435.34,76384.91,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,133435.34,76384.91
+2025-06-30,3,Unsecured wholesale funding,132306.54,74390.46,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,132306.54,74390.46
+2026-03-31,3i,Operational deposits,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-12-31,3i,Operational deposits,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-09-30,3i,Operational deposits,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-06-30,3i,Operational deposits,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2026-03-31,3ii,Non-operational deposits,136344.02,81319.74,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,136344.02,81319.74
+2025-12-31,3ii,Non-operational deposits,133377.24,76396.9,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,133377.24,76396.9
+2025-09-30,3ii,Non-operational deposits,133435.34,76384.91,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,133435.34,76384.91
+2025-06-30,3ii,Non-operational deposits,132306.54,74390.46,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,132306.54,74390.46
+2026-03-31,3iii,Unsecured debt,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-12-31,3iii,Unsecured debt,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-09-30,3iii,Unsecured debt,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-06-30,3iii,Unsecured debt,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2026-03-31,4,Secured wholesale funding,,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,0.0
+2025-12-31,4,Secured wholesale funding,,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,0.0
+2025-09-30,4,Secured wholesale funding,,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,0.0
+2025-06-30,4,Secured wholesale funding,,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,0.0
+2026-03-31,5,Additional requirements,19304.82,19304.82,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,19304.82,19304.82
+2025-12-31,5,Additional requirements,23861.31,23861.31,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,23861.31,23861.31
+2025-09-30,5,Additional requirements,20808.81,20808.81,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,20808.81,20808.81
+2025-06-30,5,Additional requirements,17919.3,17919.3,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,17919.3,17919.3
+2026-03-31,5i,collateral,19304.82,19304.82,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,19304.82,19304.82
+2025-12-31,5i,collateral,23861.31,23861.31,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,23861.31,23861.31
+2025-09-30,5i,collateral,20808.81,20808.81,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,20808.81,20808.81
+2025-06-30,5i,collateral,17919.3,17919.3,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,17919.3,17919.3
+2026-03-31,5ii,loss of funding,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-12-31,5ii,loss of funding,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-09-30,5ii,loss of funding,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-06-30,5ii,loss of funding,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2026-03-31,5iii,Credit and liquidity facilities,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-12-31,5iii,Credit and liquidity facilities,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-09-30,5iii,Credit and liquidity facilities,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-06-30,5iii,Credit and liquidity facilities,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2026-03-31,6,Other contractual funding,12928.2,12928.2,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,12928.2,12928.2
+2025-12-31,6,Other contractual funding,13569.51,13569.51,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,13569.51,13569.51
+2025-09-30,6,Other contractual funding,16023.74,16023.74,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,16023.74,16023.74
+2025-06-30,6,Other contractual funding,10619.62,10619.62,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,10619.62,10619.62
+2026-03-31,7,Other contingent funding,247808.26,12020.93,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,247808.26,12020.93
+2025-12-31,7,Other contingent funding,247624.87,11832.38,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,247624.87,11832.38
+2025-09-30,7,Other contingent funding,238039.01,10912.72,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,238039.01,10912.72
+2025-06-30,7,Other contingent funding,237087.74,10261.95,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,237087.74,10261.95
+2026-03-31,8,Total Cash Outflows,,143424.99,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,143424.99
+2025-12-31,8,Total Cash Outflows,,143235.37,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,143235.37
+2025-09-30,8,Total Cash Outflows,,141746.85,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,141746.85
+2025-06-30,8,Total Cash Outflows,,130837.9,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,130837.9
+2026-03-31,9,Secured lending,11398.63,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,11398.63,0.0
+2025-12-31,9,Secured lending,6744.45,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,6744.45,0.0
+2025-09-30,9,Secured lending,24064.42,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,24064.42,0.0
+2025-06-30,9,Secured lending,35759.39,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,35759.39,0.0
+2026-03-31,10,Inflows from fully performing,55096.02,46336.02,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,55096.02,46336.02
+2025-12-31,10,Inflows from fully performing,60538.98,50581.33,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,60538.98,50581.33
+2025-09-30,10,Inflows from fully performing,55872.56,44903.43,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,55872.56,44903.43
+2025-06-30,10,Inflows from fully performing,45010.12,34953.1,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,45010.12,34953.1
+2026-03-31,11,Other cash inflows,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-12-31,11,Other cash inflows,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-09-30,11,Other cash inflows,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2025-06-30,11,Other cash inflows,0.0,0.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,0.0,0.0
+2026-03-31,12,Total Cash Inflows,,46336.02,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,46336.02
+2025-12-31,12,Total Cash Inflows,,50581.33,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,50581.33
+2025-09-30,12,Total Cash Inflows,,44903.43,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,44903.43
+2025-06-30,12,Total Cash Inflows,,34953.1,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,34953.1
+2026-03-31,13,TOTAL HQLA,,114559.25,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,114559.25
+2025-12-31,13,TOTAL HQLA,,112954.0,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,112954.0
+2025-09-30,13,TOTAL HQLA,,127910.2,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,127910.2
+2025-06-30,13,TOTAL HQLA,,135463.71,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,135463.71
+2026-03-31,14,Total Net Cash Outflows,,97088.97,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,97088.97
+2025-12-31,14,Total Net Cash Outflows,,92654.04,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,92654.04
+2025-09-30,14,Total Net Cash Outflows,,96843.43,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,96843.43
+2025-06-30,14,Total Net Cash Outflows,,95884.8,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,95884.8
+2026-03-31,15,Liquidity Coverage Ratio,,117.99,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,117.99
+2025-12-31,15,Liquidity Coverage Ratio,,121.91,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,121.91
+2025-09-30,15,Liquidity Coverage Ratio,,132.08,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,132.08
+2025-06-30,15,Liquidity Coverage Ratio,,141.28,IndusInd Bank,indusind_bank_q4fy26_mar2026.pdf,crore,,141.28

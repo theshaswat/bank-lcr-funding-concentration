@@ -1,0 +1,10 @@
+{
+  "both_banks_clear_regulatory_minimum": true,
+  "headline_ratio_leader": "IndusInd Bank",
+  "headline_ratio_gap_pct_points_latest_quarter": 11.66,
+  "funding_quality_leader": "HDFC Bank",
+  "wholesale_reliance_gap_pct_points_latest_quarter": 7.75,
+  "less_stable_retail_gap_pct_points_latest_quarter": 17.73,
+  "finding": "IndusInd's disclosed LCR runs 11.7 points above HDFC's in the latest quarter (126.66% vs 115.0%), and has for all five quarters in this dataset. On the ratio alone, IndusInd looks like the more liquid balance sheet. The funding profile underneath it reads the other way: IndusInd's funding base is 7.8 points more wholesale-reliant than HDFC's (40.87% vs 33.12% wholesale), and 95.3% of what retail deposits it does hold are classified less-stable, against 77.57% at HDFC \u2014 a gap that has held across all five quarters, not a one-off reading. A higher LCR bought with a thinner, more wholesale-dependent funding base is not the same claim as a genuinely more resilient one; the ratio and the funding composition are answering different questions, and this dataset is where they diverge.",
+  "reconciliation_note": "HDFC: 4/5 quarters reconcile to the stated tolerance; the one exception (Sep-2025, as restated in the Mar-2026 filing) is a genuine break in HDFC's own printed figures, not an extraction error \u2014 confirmed against the raw PDF table. IndusInd: 5/5 reconcile clean."
+}
