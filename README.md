@@ -38,6 +38,11 @@ The bank with the lower LCR has the more retail-anchored, less wholesale-
 dependent funding base. Full finding, with the reasoning and what it doesn't
 prove: [`reports/liquidity_risk_memo.md`](reports/liquidity_risk_memo.md).
 
+The "5 quarters" trend row is a first-to-last comparison, not a straight
+line: both banks fell fairly steadily from Jun 2025 to Mar 2026, then turned
+back up in Jun 2026 — an uptick partly masked by a jump in RBI's retail-
+deposit run-off factors that quarter (see the memo's last section).
+
 ## Deliverables
 
 - **Reconstruction engine:** `src/extract.py` (PDF table extraction),
@@ -46,11 +51,15 @@ prove: [`reports/liquidity_risk_memo.md`](reports/liquidity_risk_memo.md).
   `src/synthesis.py` (comparative summary and finding)
 - **Reconciled datasets:** `data/final/*.csv` — one row per bank-quarter at
   every stage, plus `comparative_verdict.json`
-- **Charts:** `outputs/charts/` — less-stable-deposit-share trend,
-  wholesale-funding-share trend, both 300dpi
+- **Charts:** `outputs/charts/` (`src/build_charts.py`, 300dpi) — LCR trend
+  with the Jun-2026 factor callout, the headline funding-quality comparison,
+  and the two-panel funding-mix trend
 - **Memo:** [`reports/liquidity_risk_memo.md`](reports/liquidity_risk_memo.md)
+  ([PDF](reports/liquidity_risk_memo.pdf))
 - **Data dictionary:** [`reports/DATA_DICTIONARY.md`](reports/DATA_DICTIONARY.md)
+  ([PDF](reports/DATA_DICTIONARY.pdf))
 - **Limitations:** [`reports/LIMITATIONS.md`](reports/LIMITATIONS.md)
+  ([PDF](reports/LIMITATIONS.pdf))
 
 ## Methodology
 
@@ -87,14 +96,17 @@ bank-lcr-funding-concentration/
 │   ├── hqla.py
 │   ├── cashflows.py
 │   ├── funding_concentration.py
-│   └── synthesis.py
+│   ├── synthesis.py
+│   ├── build_charts.py
+│   └── build_pdf.py
 ├── outputs/
 │   ├── tables/
 │   └── charts/
 ├── reports/
-│   ├── liquidity_risk_memo.md
-│   ├── DATA_DICTIONARY.md
-│   └── LIMITATIONS.md
+│   ├── liquidity_risk_memo.md (+ .pdf)
+│   ├── DATA_DICTIONARY.md (+ .pdf)
+│   ├── LIMITATIONS.md (+ .pdf)
+│   └── README.pdf
 └── README.md
 ```
 
@@ -118,11 +130,13 @@ cd src
 python3 extract.py                # -> data/processed/lcr_disclosure_lines.csv
 python3 hqla.py                   # -> data/final/hqla_validation.csv
 python3 cashflows.py              # -> data/final/lcr_reconciliation.csv
-python3 funding_concentration.py  # -> data/final/funding_concentration.csv, outputs/charts/
+python3 funding_concentration.py  # -> data/final/funding_concentration.csv
 python3 synthesis.py              # -> data/final/comparative_summary.csv, comparative_verdict.json
+python3 build_charts.py           # -> outputs/charts/*.png
+python3 build_pdf.py              # -> reports/*.pdf, README.pdf
 ```
 
-Requires `pdfplumber`, `pandas`, `matplotlib`.
+Requires `pdfplumber`, `pandas`, `matplotlib`, `reportlab`.
 
 ## Results
 

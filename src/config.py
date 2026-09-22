@@ -7,6 +7,7 @@ PROCESSED_DIR = ROOT / "data" / "processed"
 FINAL_DIR = ROOT / "data" / "final"
 TABLES_DIR = ROOT / "outputs" / "tables"
 CHARTS_DIR = ROOT / "outputs" / "charts"
+REPORTS_DIR = ROOT / "reports"
 
 # One entry per source PDF. Some PDFs carry more than one quarter's columns
 # (the banks republish trailing history alongside the current quarter), so a

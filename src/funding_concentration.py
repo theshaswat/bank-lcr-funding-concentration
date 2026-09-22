@@ -24,7 +24,7 @@ into the denominator.
 """
 import pandas as pd
 
-from config import PROCESSED_DIR, FINAL_DIR, TABLES_DIR, CHARTS_DIR
+from config import PROCESSED_DIR, FINAL_DIR, TABLES_DIR
 
 
 def profile_funding(df: pd.DataFrame) -> pd.DataFrame:
@@ -60,50 +60,6 @@ def profile_funding(df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows).sort_values(["bank", "quarter"])
 
 
-def _plot(out: pd.DataFrame, charts_dir):
-    import matplotlib
-    matplotlib.use("Agg")
-    import matplotlib.pyplot as plt
-    import matplotlib.dates as mdates
-
-    charts_dir.mkdir(parents=True, exist_ok=True)
-    out = out.copy()
-    out["quarter_dt"] = pd.to_datetime(out["quarter"])
-
-    fig, ax = plt.subplots(figsize=(9, 5.5))
-    for bank, g in out.groupby("bank"):
-        g = g.sort_values("quarter_dt")
-        ax.plot(g["quarter_dt"], g["less_stable_pct_of_retail"], marker="o", linewidth=2, label=bank)
-    ax.set_title("Less-stable share of retail deposits, by quarter")
-    ax.set_ylabel("% of retail deposits classified less-stable")
-    ax.set_xlabel("Quarter end")
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
-    ax.legend()
-    ax.grid(alpha=0.3)
-    ax.annotate("Source: each bank's own Basel III Pillar 3 LCR disclosure",
-                xy=(0.0, -0.16), xycoords="axes fraction", fontsize=8, color="grey")
-    fig.tight_layout()
-    fig.savefig(charts_dir / "less_stable_deposit_share_trend.png", dpi=300)
-    plt.close(fig)
-
-    fig, ax = plt.subplots(figsize=(9, 5.5))
-    for bank, g in out.groupby("bank"):
-        g = g.sort_values("quarter_dt")
-        ax.plot(g["quarter_dt"], g["wholesale_pct_of_funding_base"], marker="o", linewidth=2, label=bank)
-    ax.set_title("Wholesale funding as % of retail + unsecured-wholesale funding base")
-    ax.set_ylabel("% of funding base")
-    ax.set_xlabel("Quarter end")
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
-    ax.legend()
-    ax.grid(alpha=0.3)
-    ax.annotate("Source: each bank's own Basel III Pillar 3 LCR disclosure. "
-                "Secured wholesale funding excluded — raw balance not disclosed.",
-                xy=(0.0, -0.16), xycoords="axes fraction", fontsize=8, color="grey")
-    fig.tight_layout()
-    fig.savefig(charts_dir / "wholesale_funding_share_trend.png", dpi=300)
-    plt.close(fig)
-
-
 if __name__ == "__main__":
     import sys
 
@@ -114,9 +70,6 @@ if __name__ == "__main__":
     TABLES_DIR.mkdir(parents=True, exist_ok=True)
     out.to_csv(FINAL_DIR / "funding_concentration.csv", index=False)
     out.to_csv(TABLES_DIR / "funding_concentration_summary.csv", index=False)
-    _plot(out, CHARTS_DIR)
 
     print(out.to_string(index=False), file=sys.stderr)
     print(f"\nwrote {FINAL_DIR / 'funding_concentration.csv'}", file=sys.stderr)
-    print(f"wrote {CHARTS_DIR / 'less_stable_deposit_share_trend.png'}", file=sys.stderr)
-    print(f"wrote {CHARTS_DIR / 'wholesale_funding_share_trend.png'}", file=sys.stderr)

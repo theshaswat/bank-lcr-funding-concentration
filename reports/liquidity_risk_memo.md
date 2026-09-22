@@ -32,7 +32,7 @@ lines in total.
 
 HDFC's September 2025 quarter doesn't reconcile. Total Outflows and Total
 Inflows both match the PDF's printed figures exactly; Net Cash Outflows
-doesn't follow from them — it's about ₹4,195 crore lower than the standard
+doesn't follow from them — it's about ₹41,955 crore lower than the standard
 formula implies. This is the September 2025 column as it appears *restated*
 inside HDFC's March 2026 filing, not the originally-filed quarter. I checked
 the raw extracted table cells directly before accepting this as real rather
@@ -44,16 +44,32 @@ reprint, are both consistent with what the PDF shows, and public disclosure
 alone doesn't let me tell which. It's reported as a break, not folded into
 the other nine.
 
-## One thing that doesn't fit the story above
+## One more thing, and it isn't part of the story above
 
-Both banks' LCR has been declining across these five quarters — HDFC down
-8.8 points from its Jun-2025 level, IndusInd down 14.6. Whatever is driving
-that (loan growth outpacing HQLA growth, a change in deposit mix, something
-sector-wide) isn't something this dataset can isolate, and it isn't
-particular to the wholesale-funding story above — HDFC's wholesale share
-actually rose slightly over the same period while its LCR fell. Worth
-flagging as a separate question rather than folding it into the funding-
-quality finding, which it doesn't actually explain.
+Both banks' LCR fell fairly steadily from June 2025 to March 2026 — HDFC
+123.78% to 113.54%, IndusInd 141.28% to 117.99% — then turned back up in
+June 2026. The June uptick is smaller than it should have been. RBI's
+retail-deposit run-off factors jumped that one quarter, for both banks,
+after sitting flat at the standard 5% (stable) / 10% (less-stable) for
+every one of the prior four quarters in this dataset: stable deposits moved
+to roughly 7.3% (HDFC) / 7.25% (IndusInd), less-stable to roughly 12.2% /
+11.95%. Recomputing June 2026 with the prior 5%/10% factors puts HDFC at
+121.65% and IndusInd at 132.63% — 6.65 and 5.97 points higher than what was
+actually disclosed. The underlying trend reversed upward that quarter; the
+factor change masked most of it.
+
+I don't have a confirmed source for why the factor moved — neither bank's
+filing calls it out as a change, and it's specific to the retail-deposit
+rows; the wholesale and other outflow categories I checked (rows 3ii and 7)
+show smaller, less synchronized movement over the same five quarters, not
+a comparable jump. It reads consistent with a regulator tightening the
+run-off assumption for how fast retail deposits can now move — the global
+post-2023 discussion around app-based banking and real-time transfers makes
+that a plausible story — but that's informed speculation, not something
+this dataset confirms on its own. It also isn't part of the wholesale-
+funding finding above: HDFC's wholesale share actually rose slightly over
+the same five quarters while its LCR fell, so the two aren't the same
+mechanism.
 
 ## What this doesn't establish
 

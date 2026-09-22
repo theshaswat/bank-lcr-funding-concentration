@@ -21,7 +21,7 @@ point tolerance exactly — most land at a 0.00 gap. One doesn't: HDFC's
 September 2025 quarter, as restated in the comparative column of HDFC's own
 March 2026 filing. Total Outflows and Total Inflows both match the PDF's
 printed figures exactly; Net Cash Outflows doesn't follow from them by the
-standard formula — it's about ₹4,195 crore lower than Outflows minus Inflows
+standard formula — it's about ₹41,955 crore lower than Outflows minus Inflows
 implies. I checked this against the raw extracted table cells directly (not
 just the downstream computation) to rule out a parsing bug before accepting
 it as real, and it holds. I don't have a confirmed explanation. The two most
@@ -51,12 +51,13 @@ bank's disclosure, in any of the 10 bank-quarters. Only its weighted
 (post-haircut) value is given. The funding-concentration profile in
 `funding_concentration.py` is built from retail deposits + unsecured
 wholesale funding only, with secured wholesale funding excluded rather than
-estimated. In practice this is a small omission next to the rest of the funding base —
-row 4's weighted values run ₹4,877–11,046 crore across HDFC's five quarters
-against a funding base of ₹23–27 lakh crore, and IndusInd discloses ₹0 for
-this row in every quarter — but it's excluded because there's no unweighted
-balance to include, not because it's been checked and found negligible in
-unweighted terms (the weighted, post-haircut figure isn't the same number).
+estimated. In practice this is a small omission next to the rest of the
+funding base — row 4's weighted values run ₹4,877–11,046 crore across
+HDFC's five quarters against a funding base of ₹23–27 lakh crore, and
+IndusInd discloses ₹0 for this row in every quarter — but it's excluded
+because there's no unweighted balance to include, not because it's been
+checked and found negligible in unweighted terms (the weighted, post-haircut
+figure isn't the same number).
 
 ## HDFC and IndusInd disclose in different currency units
 

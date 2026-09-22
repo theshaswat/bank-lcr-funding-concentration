@@ -13,7 +13,6 @@ One row per (bank, quarter, disclosure line) — 230 rows: 2 banks × 5 quarters
 | label | str | Short row description |
 | unweighted | float | The raw balance, before any run-off/inflow factor is applied. `NaN` where the bank's own template doesn't disclose an unweighted figure for that row (see LIMITATIONS.md — this is consistently true for row 4, Secured wholesale funding, in both banks) |
 | weighted | float | The value after the RBI's prescribed run-off or inflow factor — this is the figure that actually feeds the LCR calculation |
-| bank | str | duplicate key, see above |
 | source_file | str | Which PDF in `data/raw/` this row came from |
 | unit | str | `million` (HDFC) or `crore` (IndusInd) — **the two banks disclose in different units**; see below |
 | unweighted_inr_crore, weighted_inr_crore | float | The same two value columns, converted to a common Rs crore basis (1 crore = 10 million). Use these, not the raw `unweighted`/`weighted` columns, for any comparison of absolute rupee figures across the two banks |
