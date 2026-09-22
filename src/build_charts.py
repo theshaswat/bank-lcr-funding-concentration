@@ -37,7 +37,7 @@ NAVY = "#1F2A44"
 GREY = "#6B7280"
 LGREY = "#EEEEEE"
 HDFC = "#1F2A44"      # navy — larger, retail-anchored
-INDUSIND = "#C2703C"  # burnt amber — smaller, more wholesale-reliant
+INDUSIND = "#0A0A0A"  # near-black — smaller, more wholesale-reliant
 DPI = 300
 SRC = "Source: HDFC Bank and IndusInd Bank, own Basel III Pillar 3 LCR disclosures, Jun 2025-Jun 2026"
 

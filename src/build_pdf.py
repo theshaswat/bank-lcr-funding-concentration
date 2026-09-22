@@ -351,13 +351,13 @@ def render(md_path, pdf_path, title):
 
 
 def main():
+    # Only the memo and the README get a PDF twin — the reader-facing
+    # documents someone would open standalone. DATA_DICTIONARY.md and
+    # LIMITATIONS.md are reference material, meant to be browsed on GitHub
+    # alongside the code they document, not printed.
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     render(REPORTS_DIR / "liquidity_risk_memo.md", REPORTS_DIR / "liquidity_risk_memo.pdf",
            "Bank LCR & Funding Concentration — Liquidity Risk Memo")
-    render(REPORTS_DIR / "DATA_DICTIONARY.md", REPORTS_DIR / "DATA_DICTIONARY.pdf",
-           "Bank LCR & Funding Concentration — Data Dictionary")
-    render(REPORTS_DIR / "LIMITATIONS.md", REPORTS_DIR / "LIMITATIONS.pdf",
-           "Bank LCR & Funding Concentration — Limitations & Assumptions")
     render(ROOT / "README.md", REPORTS_DIR / "README.pdf",
            "Bank LCR & Funding Concentration — Project Overview")
 

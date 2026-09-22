@@ -57,9 +57,7 @@ deposit run-off factors that quarter (see the memo's last section).
 - **Memo:** [`reports/liquidity_risk_memo.md`](reports/liquidity_risk_memo.md)
   ([PDF](reports/liquidity_risk_memo.pdf))
 - **Data dictionary:** [`reports/DATA_DICTIONARY.md`](reports/DATA_DICTIONARY.md)
-  ([PDF](reports/DATA_DICTIONARY.pdf))
 - **Limitations:** [`reports/LIMITATIONS.md`](reports/LIMITATIONS.md)
-  ([PDF](reports/LIMITATIONS.pdf))
 
 ## Methodology
 
@@ -104,8 +102,8 @@ bank-lcr-funding-concentration/
 │   └── charts/
 ├── reports/
 │   ├── liquidity_risk_memo.md (+ .pdf)
-│   ├── DATA_DICTIONARY.md (+ .pdf)
-│   ├── LIMITATIONS.md (+ .pdf)
+│   ├── DATA_DICTIONARY.md
+│   ├── LIMITATIONS.md
 │   └── README.pdf
 └── README.md
 ```
