@@ -1,0 +1,79 @@
+name: verify
+
+# The four Pillar 3 disclosure PDFs are committed, so CI runs the whole chain
+# against them -- extraction, HQLA validation, the cash-flow reconciliation,
+# funding concentration, and the synthesis -- and requires every committed data
+# artifact back byte for byte. That is what catches a figure edited into a table
+# without the extraction behind it being rerun.
+#
+# The reports are compared too. Both PDFs are pure text and tables with no image
+# in either (checked with pdfimages), so they reproduce across machines once
+# src/build_pdf.py sets rl_config.invariant to stop reportlab writing a
+# wall-clock timestamp and a random document ID into each build.
+#
+# outputs/charts is rebuilt but deliberately not compared. matplotlib renders
+# text differently on Linux than on macOS, so two correct builds produce
+# different PNGs, and nothing downstream embeds them.
+#
+# The last step pins the finding itself rather than the files: the whole point
+# of the project is that the bank with the higher LCR has the weaker funding
+# base, and if that ever inverts it should fail loudly rather than quietly
+# rewriting the conclusion.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Rebuild the full chain from the committed disclosures
+        working-directory: src
+        run: |
+          python extract.py
+          python hqla.py
+          python cashflows.py
+          python funding_concentration.py
+          python synthesis.py
+
+      - name: Committed data and tables reproduce exactly
+        run: git diff --exit-code -- data outputs/tables
+
+      - name: The finding still holds
+        run: |
+          python - <<'PY'
+          import json, sys
+          v = json.load(open("data/final/comparative_verdict.json"))
+          checks = {
+              "both banks clear the RBI minimum": v["both_banks_clear_regulatory_minimum"] is True,
+              "IndusInd leads on the headline ratio": v["headline_ratio_leader"] == "IndusInd Bank",
+              "HDFC leads on funding quality": v["funding_quality_leader"] == "HDFC Bank",
+              "the two leaders are different banks": v["headline_ratio_leader"] != v["funding_quality_leader"],
+          }
+          for name, ok in checks.items():
+              print(("ok   " if ok else "FAIL ") + name)
+          if not all(checks.values()):
+              sys.exit("the project's central finding no longer holds")
+          PY
+
+      - name: Charts and reports still build
+        working-directory: src
+        run: |
+          python build_charts.py
+          python build_pdf.py
+
+      - name: Committed reports reproduce exactly
+        run: git diff --exit-code -- reports
